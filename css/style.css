@@ -291,11 +291,46 @@ background-color: aqua;
 }
 
 @media  sreen and (max-width: 1024px) {
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    flex: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
   
 
 }
 
 @media screen and  (max-width: 768px) {
+
+  header {
+    flex-direction: column;
+    }
+
+  .menu {
+
+    margin-top: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li {
+    margin-bottom: 10px;
+  }
+
   .barco {
     width: 10px;
     display: flex;
@@ -325,10 +360,35 @@ background-color: aqua;
     
   }
 
+  .contenedor1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 3%;
+
+  }
+
   .contenedor {
     display: flex;
+    justify-content: center;
     text-align: center;
+    margin-right: 30%;
 
+  }
+
+  .cajaP {
+    display: flex;
+    flex-direction: column;
+  }
+  .caj {
+    flex-direction: column;
+  }
+
+  .caj1 {
+    flex-direction: column;
+  }
+  .cajita1 {
+    margin-bottom: 20px;
   }
 
   footer {
