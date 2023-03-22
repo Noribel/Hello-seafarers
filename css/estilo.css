@@ -1,0 +1,102 @@
+@import url(/Users/noribelriverohernandez/Desktop/proyecto-uno/css/estilo.css);
+header div img {
+  float: left;
+  width: 130px;
+}
+
+header div img:last-child {
+  float: right;
+}
+
+header .menu nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header .menu nav ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+header .menu nav ul li a {
+  color: #007bff;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+header .menu nav ul li a:hover {
+  color: #6c757d;
+}
+
+.bienvenida {
+  background-color: #6c757d;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.barco img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.imagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.imagen .card {
+  background-color: white;
+  border-radius: 0.25rem;
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+          box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  margin: 1rem;
+  overflow: hidden;
+  width: 300px;
+}
+
+.imagen .card .card_image {
+  max-width: 100%;
+}
+
+.imagen .card .card_title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.imagen .card .btn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  display: block;
+  font-size: 1rem;
+  margin: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+.imagen .card .btn:hover {
+  background-color: #0062cc;
+}
+
+footer {
+  background-color: #6c757d;
+  color: white;
+  font-size: 0.8rem;
+  padding: 1rem;
+  text-align: center;
+}
+/*# sourceMappingURL=estilo.css.map */

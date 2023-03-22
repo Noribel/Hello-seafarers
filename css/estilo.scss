@@ -1,0 +1,111 @@
+@import "estilo.css";
+
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+
+$font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+header {
+    div {
+      img {
+        float: left;
+        width: 130px;
+  
+        &:last-child {
+          float: right;
+        }
+      }
+    }
+  
+    .menu {
+      nav {
+        ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+  
+          li {
+            display: inline-block;
+            margin-right: 1rem;
+  
+            a {
+              color: $primary-color;
+              font-size: 1.2rem;
+              text-decoration: none;
+  
+              &:hover {
+                color: $secondary-color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  .bienvenida {
+    background-color: $secondary-color;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem;
+  }
+  
+  .barco {
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+  }
+  
+  .imagen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+    .card {
+      background-color: white;
+      border-radius: 0.25rem;
+      box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+      margin: 1rem;
+      overflow: hidden;
+      width: 300px;
+  
+      .card_image {
+        max-width: 100%;
+      }
+  
+      .card_title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 1rem;
+      }
+  
+      .btn {
+        background-color: $primary-color;
+        border: none;
+        color: white;
+        display: block;
+        font-size: 1rem;
+        margin: 1rem;
+        padding: 0.5rem;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color 0.2s;
+  
+        &:hover {
+          background-color: darken($primary-color, 10%);
+        }
+      }
+    }
+  }
+  
+  footer {
+    background-color: $secondary-color;
+    color: white;
+    font-size: 0.8rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  
