@@ -1,0 +1,68 @@
+.caja2 {
+    margin-right: 30%;
+    margin-left: 30%;
+    padding: 20px;
+    background-color: rgb(68, 161, 200);
+    
+    h1 {
+        text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    
+    .contenedor1 {
+        margin-top: 20px;
+        margin-right: 30%;
+        margin-left: 30%;
+      
+      #carouselExampleIndicators {
+        margin: 0 auto;
+        
+        .carousel-indicators {
+          button {
+            background-color: #ccc;
+            border: none;
+            margin: 0 5px;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            
+            &:hover, &.active {
+              background-color: #555;
+            }
+          }
+        }
+        
+        .carousel-item {
+          img {
+              align-items: center;
+            width: 50vw;
+            display: block;
+            margin: 0 auto;
+          }
+        }
+        
+        .carousel-control-prev, .carousel-control-next {
+          width: 5%;
+          font-size: 20px;
+          color: #fff;
+          background-color: rgba(0, 0, 0, 0.5);
+          
+          &:hover {
+            color: #fff;
+            text-decoration: none;
+            background-color: rgba(0, 0, 0, 0.8);
+          }
+        }
+        
+        .carousel-control-prev {
+          left: -35px;
+        }
+        
+        .carousel-control-next {
+          right: -35px;
+        }
+      }
+    }
+  }
+  

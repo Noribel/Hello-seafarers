@@ -1,36 +1,46 @@
-@import "estilo.css";
+@import "./secundarios/reset.scss";
 
-$primary-color: #007bff;
+@import "./secundarios/experiencias.scss";
+@import "./secundarios/seccionPrincipale.scss";
+@import "./secundarios/experienciasMarinos.scss";
+@import "./secundarios/definicion.scss";
+@import "./secundarios/partes.scss";
+@import "./secundarios/estructura.scss";
+@import "./secundarios/estructuraI.scss";
+@import "./secundarios/estructuraT.scss";
+@import "./secundarios/contenedor.scss";
+@import "./secundarios/contenedor1.scss";
+@import "./secundarios/contenedor2.scss";
+@import "./secundarios/inic.scss";
+
+
+$primary-color:#007bff;
 $secondary-color: #6c757d;
 
 $font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
+body {
+    height: 100vh;
+    background-color: rgb(68, 161, 200);
+}
+
 header {
-    div {
-      img {
-        float: left;
-        width: 130px;
-  
-        &:last-child {
-          float: right;
-        }
-      }
-    }
   
     .menu {
       nav {
+          margin-top: 1rem;
+          margin: 1rem 1rem;
         ul {
           list-style: none;
-          margin: 0;
-          padding: 0;
+        
   
           li {
             display: inline-block;
-            margin-right: 1rem;
+            margin-left: 1rem;
   
             a {
               color: $primary-color;
-              font-size: 1.2rem;
+              font-size: 1.5rem;
               text-decoration: none;
   
               &:hover {
@@ -42,11 +52,43 @@ header {
       }
     }
   }
-  
+
+  li {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  h1 {
+      text-align: center;
+      margin-bottom: 3%;
+  }
+
+  h2 {
+      margin-top: 5%;
+      margin-bottom: 5%;
+      text-align: center;
+  }
+
+  h3 {
+      margin-top: 2%;
+      margin-bottom: 2%;
+  }
+
+  .imagenp {
+      margin-bottom: 5%;
+      width: 500px;
+      border-radius: 10px;
+      border: 5px #007bff solid;
+  }
+
+  .col {
+    width: 50%;
+  }
+
   .bienvenida {
-    background-color: $secondary-color;
+    background-color: rgb(68, 161, 200);
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     padding: 0.5rem;
   }
@@ -63,16 +105,20 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
   
     .card {
-      background-color: white;
-      border-radius: 0.25rem;
+      background-color: rgb(217, 212, 212);
+      border-radius: 1rem;
       box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-      margin: 1rem;
+      margin: 2rem;
       overflow: hidden;
-      width: 300px;
+      width: 250px;
   
       .card_image {
+        border-radius: 1rem;
+        margin: 10% 15%;
+        width: 70%;
         max-width: 100%;
       }
   
@@ -80,14 +126,15 @@ header {
         font-size: 1.5rem;
         font-weight: bold;
         margin: 1rem;
+        text-align: center;
       }
   
       .btn {
         background-color: $primary-color;
-        border: none;
+        border-radius: 15%;
         color: white;
         display: block;
-        font-size: 1rem;
+        font-size: 1.5rem;
         margin: 1rem;
         padding: 0.5rem;
         text-align: center;
@@ -101,11 +148,16 @@ header {
     }
   }
   
+  
   footer {
     background-color: $secondary-color;
     color: white;
     font-size: 0.8rem;
-    padding: 1rem;
+    padding: 20px;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
   }
+
+
   

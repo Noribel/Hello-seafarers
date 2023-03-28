@@ -1,0 +1,24 @@
+.seccionPrincipal {
+    text-align: center;
+    background-color: #f2f2f2b0 ;
+    padding: 20px;
+    
+    .exper {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #333;
+      font-weight: bold;
+    }
+    
+    .vidaM {
+      font-size: 18px;
+      line-height: 1.5;
+      color: #666;
+      margin-bottom: 40px;
+      
+      @media (max-width: 768px) {
+        text-align: left;
+      }
+    }
+  }
+  
