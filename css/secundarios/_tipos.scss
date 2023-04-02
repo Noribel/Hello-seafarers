@@ -1,0 +1,33 @@
+.card-container {
+  .row {
+    &.top {
+      margin-bottom: 30px;
+    }
+  }
+  .card {
+    height: 100%;
+    .card-body {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      h5 {
+        margin-top: 10px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+<div class="card-container">
+  <div class="row top row-cols-1 row-cols-md-2 g-4">
+    <!-- Imágenes de arriba -->
+  </div>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <!-- Imágenes de abajo -->
+  </div>
+</div>
+
+  
+  

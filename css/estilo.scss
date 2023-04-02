@@ -12,6 +12,7 @@
 @import "./secundarios/contenedor1.scss";
 @import "./secundarios/contenedor2.scss";
 @import "./secundarios/inic.scss";
+@import "./secundarios/tipos.scss";
 
 
 $primary-color:#007bff;
@@ -27,8 +28,9 @@ body {
 header {
   
     .menu {
+        background-color: rgb(217, 212, 212);
+        margin-top: 0%;
       nav {
-          margin-top: 1rem;
           margin: 1rem 1rem;
         ul {
           list-style: none;
@@ -40,7 +42,7 @@ header {
   
             a {
               color: $primary-color;
-              font-size: 1.5rem;
+              font-size: 1.2rem;
               text-decoration: none;
   
               &:hover {
@@ -54,8 +56,8 @@ header {
   }
 
   li {
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 0.7%;
+    margin-bottom: 0.7%;
   }
 
   h1 {
