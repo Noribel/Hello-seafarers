@@ -564,6 +564,9 @@ h3 {
   font-weight: bold;
   padding: 0.5rem;
 }
+.barco {
+  background-color: rgb(53, 133, 159);
+}
 
 .barco img {
   display: block;
